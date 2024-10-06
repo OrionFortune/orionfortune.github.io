@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Vollkorn", sans-serif;
+    font-weight: 400;
+    color: #F5FFFA
+}
+
+
+.top-line {
+    width: 100%; 
+    height: 20px; 
+    background-color: #25274D; 
+    margin: 0; 
+}
+
+
+.footer-line {
+    width: 100vw; 
+    height: 15px; 
+    background-color: #ffffff; 
+    margin: 0; 
+}
+
+
+.footer {
+    padding: 20px; 
+    background-color: #25274D; 
+    text-align: center; 
+    font-size: 16px; 
+    border: 2px solid rgb(255, 255, 255);
+}
+
+
+.contact-info p {
+    margin: 5px 0; 
+    color: #ffffff; 
+    font-weight: 700;
+}
+
+
+.wrapper {background-color: #25274D;}
+
+.wrapper {
+    background: linear-gradient(90deg, rgb(36, 33, 97) 0%, rgb(50, 113, 155) 55%, rgba(0,212,255,1) 100%);
+    width: 100%;
+}
+
+.container { width: 100% }
+.container { margin: 1px;}
+header { padding: 10px 0;}
+
+.hero {
+    padding-bottom: 100px;
+}
+
+.hero--info {
+    width: 500px;
+}
+
+.hero--info h1 {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.hero--info p {
+    font-weight: 700;
+    line-height: 170%;
+    margin: 30px 0;
+}
+
+.hero--info {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px; 
+    background-color: #25274D;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);;
+    }
+  
+.hero--image {
+    width: 80%; 
+    margin: 20px auto; 
+    padding: 20px; 
+    
+    background-color: #25274D; 
+    border: 2px solid #ffffff; 
+    border-radius: 10px; 
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+}
+
+.hero--image img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 5px; 
+}
+.menu-list {padding: 20px 0;}
+
+.menu-toggle {
+    display: none;
+}
+
+.burger-menu {
+    
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    cursor: pointer; 
+    padding-left: 65px;
+    padding-top: 20px;
+}
+
+.burger-menu .line {
+    width: 100%;
+    height: 4px;
+    background-color: #F5FFFA;
+}
+
+.menu-list {
+    list-style: none;
+    display: none;
+    flex-direction: column;
+    padding: 0;
+    padding-left: 65px;
+    padding-top: 15px;
+}
+
+.menu-list li {
+    margin: 10px 0;
+}
+
+.menu-list li a {
+    text-decoration: none;
+    color: #F5FFFA;
+    font-size: 20px;
+}
+
+.menu-toggle:checked + .burger-menu + .menu-list {
+    display: flex;
+}
+
+a {color: white }
